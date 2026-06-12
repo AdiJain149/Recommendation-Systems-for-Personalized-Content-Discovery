@@ -1,28 +1,28 @@
-# Virtual environment
+# Virtual Environment
 .venv/
-env/
-ENV/
-venv/
+.venv-1/
 
-# Python caching
-**/__pycache__/
+# Python
+__pycache__/
 *.pyc
-*.pyo
-*.pyd
-.pytest_cache/
-.mypy_cache/
 
-# Data and Artifacts (RUTHLESSLY PROTECTED)
-data/
+# Dataset
+data/raw/
+data/processed/
+
+# MLflow
 mlruns/
-outputs/
-*.pkl
-*.parquet
-*.zip
-*.tar.gz
+mlflow.db
 
-# IDE and OS files
+# Outputs
+outputs/
+
+# VS Code
 .vscode/
-.idea/
+
+# Models
+*.pkl
+*.joblib
+
+# OS
 .DS_Store
-Thumbs.db
