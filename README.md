@@ -114,7 +114,7 @@ The achieved performance demonstrates the effectiveness of matrix factorization 
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Clone the Repository
 
