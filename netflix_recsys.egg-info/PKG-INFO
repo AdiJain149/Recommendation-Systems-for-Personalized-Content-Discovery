@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: netflix_recsys
+Version: 0.1.0
+Summary: Production-ready Netflix Recommendation Engine
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Netflix Recommendation System
+
+An end-to-end, production-optimized recommendation engine built on the classic Netflix Prize Dataset.
+
+## Tech Stack
+- **Data Engineering:** Polars
+- **Modeling:** SVD (Surprise), ALS (Implicit)
+- **Deployment:** FastAPI, Streamlit, Docker
+- **MLOps:** MLflow

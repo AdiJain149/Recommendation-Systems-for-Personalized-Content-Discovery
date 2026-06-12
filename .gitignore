@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+
+# Python caching
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Data and Artifacts (RUTHLESSLY PROTECTED)
+data/
+mlruns/
+outputs/
+*.pkl
+*.parquet
+*.zip
+*.tar.gz
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

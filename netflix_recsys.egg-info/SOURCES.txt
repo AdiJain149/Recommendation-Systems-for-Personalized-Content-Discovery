@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+netflix_recsys.egg-info/PKG-INFO
+netflix_recsys.egg-info/SOURCES.txt
+netflix_recsys.egg-info/dependency_links.txt
+netflix_recsys.egg-info/top_level.txt
